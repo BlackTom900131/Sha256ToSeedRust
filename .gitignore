@@ -1,6 +1,8 @@
 # Rust build artifacts
 /target/
-!target/release/test_rust.exe
+!/target/release/
+/target/release/*
+!/target/release/test_rust.exe
 Cargo.lock
 
 # IDE files
